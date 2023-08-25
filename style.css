@@ -1,0 +1,59 @@
+/* algumas mudanças com css pro site ficar mais bonito*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(31, 1, 70);
+    color: #fefefe;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+ 
+  /* Formulário */
+  .container {
+    margin: 20px auto; 
+    padding: 20px;
+  }
+
+  label{
+    margin-top: 5px;
+  }
+
+  /* Botões */
+  .divBotoes {
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-evenly;
+  }
+  
+  .btn:hover {
+    
+    color: #ffffff;
+    font-weight: bold;
+    background: linear-gradient(to left, #010839, #b480fc);
+    border: none;
+  }
+  
+  /* Ajuste para dispositivos móveis */
+  @media (max-width: 768px) {
+    .divBotoes {
+      margin-top: 20px;
+      text-align: center;
+      
+    }
+  
+    /* Ajustes gerais para dispositivos móveis */
+    * {
+      margin: 20px 0 10px;
+    }
+  
+    #voltarBtn {
+      margin-left: 10px;
+    }
+  
+    #cadastrarBtn {
+      margin-right: 10px;
+    }
+  }
+  

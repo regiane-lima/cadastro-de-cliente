@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const cadastrarBtn = document.getElementById("cadastrarBtn");
     const excluirBtn = document.getElementById("ExcluirBtn");
     const voltarBtn = document.getElementById("voltarBtn");
-    const campos = document.querySelectorAll("input[type=text], input[type=email], input[type=password]");
+    const campos = document.querySelectorAll("input[type=text], input[type=email],input[type=tel], input[type=password]");
     const camposArray = Array.from(campos); // Converte NodeList em Array
 
     cadastrarBtn.addEventListener("click", function() {
